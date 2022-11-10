@@ -10,7 +10,7 @@ export default class App extends Component {
     
     <div className="App">
     
-        <p>Hello World</p>
+        <p>welcome { user }</p>
     
       </div>
     
@@ -19,3 +19,5 @@ export default class App extends Component {
   }
 
 }
+
+var user = 'John'
