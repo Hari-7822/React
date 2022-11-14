@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './js/App';
 import Btn from './js/btns';
-// import Bg from './js/three';
+import Three from './js/three';
 
 
 import './css/index.css';
@@ -19,12 +19,8 @@ root.render(
 
     <Btn />
 
+    <Three/>
+
   </React.StrictMode>
 
 );
-
-//  class Bg extends Component {
-    
-//     const cam = new THREE.PerspectiveCamera
-
-//  }
